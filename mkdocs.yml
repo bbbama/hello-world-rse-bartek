@@ -1,0 +1,5 @@
+site_name: Hello World RSE
+theme: material
+
+nav:
+  - Home: index.md

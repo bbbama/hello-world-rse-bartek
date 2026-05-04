@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello-world-rse-bartek"
+version = "0.1.0"
+authors = [{ name="bbbama", email="bartamalio@gmail.com" }]
+description = "RSE Assignment - simple use of Pint"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+dependencies = ["pint"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "mkdocs-material"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
