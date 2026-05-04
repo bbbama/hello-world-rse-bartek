@@ -4,12 +4,12 @@ on:
   release:
     types: [published]
 
-permissions:
-  id-token: write
-
 jobs:
   build-n-publish:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
