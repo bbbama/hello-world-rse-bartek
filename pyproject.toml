@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hello-world-rse-bartek"
-version = "0.1.0"
+version = "0.1.1"
 authors = [{ name="bbbama", email="bartamalio@gmail.com" }]
 description = "RSE Assignment - simple use of Pint"
 readme = "README.md"
