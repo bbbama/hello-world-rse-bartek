@@ -12,6 +12,9 @@ requires-python = ">=3.8"
 license = {text = "MIT"}
 dependencies = ["pint"]
 
+[project.urls]
+Repository = "https://github.com/bbbama/hello-world-rse-bartek"
+
 [project.optional-dependencies]
 dev = ["pytest", "pytest-cov", "mkdocs-material"]
 
